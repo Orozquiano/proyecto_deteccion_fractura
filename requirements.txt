@@ -1,0 +1,31 @@
+# ==============================
+# PROYECTO: Detección de fracturas en radiografías
+# Autor: Juan Pablo Orozco
+# ==============================
+
+# Framework API
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Machine Learning / Deep Learning
+torch==2.4.1
+torchvision==0.19.1
+transformers==4.45.2
+
+# Procesamiento de imágenes
+pillow==10.4.0
+
+# Manejo de archivos en FastAPI
+python-multipart==0.0.9
+
+# Validación de datos
+pydantic==2.9.2
+
+# Frontend simple
+streamlit==1.39.0
+
+# Peticiones HTTP
+requests==2.32.3
+
+# Utilidades numéricas
+numpy==2.1.1

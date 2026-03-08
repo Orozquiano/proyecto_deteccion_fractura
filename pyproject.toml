@@ -1,7 +1,23 @@
 [project]
-name = "proyecto-final"
+name = "xray-fracture-detector"
 version = "0.1.0"
-description = "Add your description here"
+description = "Sistema de detección de fracturas en radiografías usando inteligencia artificial"
 readme = "README.md"
-requires-python = ">=3.14"
-dependencies = []
+requires-python = ">=3.11,<3.13"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "torch",
+    "torchvision",
+    "transformers",
+    "pillow",
+    "python-multipart",
+    "pydantic",
+    "streamlit",
+    "requests",
+    "numpy"
+]
+
+[project.scripts]
+start = "run:main"
