@@ -158,6 +158,9 @@ supervisión de profesionales de la salud.
 # 👨‍💻 Autor
 
 **Juan Pablo Orozco**
+**Luis David Hurtado**
+**Manuel Castillo**
+**Luisa Ospina**
 
 Proyecto académico de Inteligencia Artificial para detección de
 fracturas en radiografías.
